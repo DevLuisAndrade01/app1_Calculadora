@@ -1,0 +1,12 @@
+D:\proyecto04\proyecto04\bin\Debug\proyecto04.exe.config
+D:\proyecto04\proyecto04\bin\Debug\proyecto04.exe
+D:\proyecto04\proyecto04\bin\Debug\proyecto04.pdb
+D:\proyecto04\proyecto04\bin\Debug\proyecto04.xml
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.vbprojAssemblyReference.cache
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.Form1.resources
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.Resources.resources
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.vbproj.GenerateResource.cache
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.vbproj.CoreCompileInputs.cache
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.exe
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.xml
+D:\proyecto04\proyecto04\obj\Debug\proyecto04.pdb

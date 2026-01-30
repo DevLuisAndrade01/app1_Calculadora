@@ -1,0 +1,33 @@
+﻿Public Class Form1
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim numero1 As Integer = Integer.Parse(TextBox1.Text)
+        Dim numero2 As Integer = Integer.Parse(TextBox2.Text)
+
+        Dim resultado As Integer = numero1 + numero2
+
+        Label4.Text = resultado.ToString()
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim numero1 As Integer = Integer.Parse(TextBox1.Text)
+        Dim numero2 As Integer = Integer.Parse(TextBox2.Text)
+
+        Dim resultado As Integer = numero1 - numero2
+
+        Label4.Text = resultado.ToString()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim numero1 As Integer = Integer.Parse(TextBox1.Text)
+        Dim numero2 As Integer = Integer.Parse(TextBox2.Text)
+
+        Dim resultado As Integer = numero1 * numero2
+
+        Label4.Text = resultado.ToString()
+    End Sub
+End Class
