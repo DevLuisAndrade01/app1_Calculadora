@@ -10,3 +10,15 @@ D:\proyecto04\proyecto04\obj\Debug\proyecto04.vbproj.CoreCompileInputs.cache
 D:\proyecto04\proyecto04\obj\Debug\proyecto04.exe
 D:\proyecto04\proyecto04\obj\Debug\proyecto04.xml
 D:\proyecto04\proyecto04\obj\Debug\proyecto04.pdb
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\bin\Debug\proyecto04.exe.config
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\bin\Debug\proyecto04.exe
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\bin\Debug\proyecto04.pdb
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\bin\Debug\proyecto04.xml
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.vbprojAssemblyReference.cache
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.Form1.resources
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.Resources.resources
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.vbproj.GenerateResource.cache
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.vbproj.CoreCompileInputs.cache
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.exe
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.xml
+C:\Users\win512\Downloads\app1_Calculadora-main\app1_Calculadora-main\proyecto04\proyecto04\obj\Debug\proyecto04.pdb

@@ -30,4 +30,13 @@
 
         Label4.Text = resultado.ToString()
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim numero1 As Integer = Integer.Parse(TextBox1.Text)
+        Dim numero2 As Integer = Integer.Parse(TextBox2.Text)
+
+        Dim resultado As Integer = numero1 / numero2
+
+        Label4.Text = resultado.ToString()
+    End Sub
 End Class
