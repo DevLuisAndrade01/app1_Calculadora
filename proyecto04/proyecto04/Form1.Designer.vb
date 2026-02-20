@@ -46,6 +46,7 @@ Partial Class Form1
         Me.borrar = New System.Windows.Forms.Button()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,6 +71,7 @@ Partial Class Form1
         '
         'TextBox1
         '
+        Me.TextBox1.Enabled = False
         Me.TextBox1.Location = New System.Drawing.Point(177, 132)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(256, 20)
@@ -88,10 +90,12 @@ Partial Class Form1
         '
         'TextBox2
         '
+        Me.TextBox2.Enabled = False
         Me.TextBox2.Location = New System.Drawing.Point(177, 208)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(256, 20)
         Me.TextBox2.TabIndex = 4
+        Me.TextBox2.Tag = " "
         Me.TextBox2.Text = "0"
         '
         'multi
@@ -284,12 +288,23 @@ Partial Class Form1
         Me.RadioButton2.Text = "RadioButton2"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(678, 329)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(98, 42)
+        Me.Button2.TabIndex = 32
+        Me.Button2.Text = "."
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.borrar)
@@ -346,4 +361,5 @@ Partial Class Form1
     Friend WithEvents borrar As Button
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents Button2 As Button
 End Class

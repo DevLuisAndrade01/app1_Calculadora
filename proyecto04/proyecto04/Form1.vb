@@ -2,7 +2,7 @@
     Dim activo
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Sumar.Click
 
-        Dim numero1 As Double = Double.Parse(activo.Text)
+        Dim numero1 As Double = Double.Parse(TextBox1.Text)
         Dim numero2 As Double = Double.Parse(TextBox2.Text)
 
         Dim resultado As Double = numero1 + numero2
@@ -15,7 +15,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles restar.Click
-        Dim numero1 As Double = Double.Parse(activo.Text)
+        Dim numero1 As Double = Double.Parse(TextBox1.Text)
         Dim numero2 As Double = Double.Parse(TextBox2.Text)
 
         Dim resultado As Double = numero1 - numero2
@@ -24,7 +24,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles multi.Click
-        Dim numero1 As Double = Double.Parse(activo.Text)
+        Dim numero1 As Double = Double.Parse(TextBox1.Text)
         Dim numero2 As Double = Double.Parse(TextBox2.Text)
 
         Dim resultado As Double = numero1 * numero2
@@ -33,11 +33,17 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles divi.Click
-        Dim numero1 As Double = Double.Parse(activo.Text)
+
+        Dim resultado
+
+        Dim numero1 As Double = Double.Parse(TextBox1.Text)
         Dim numero2 As Double = Double.Parse(TextBox2.Text)
 
-        Dim resultado As Double = numero1 / numero2
-
+        If numero2 > 0 Then
+            resultado = numero1 / numero2
+        Else
+            Resultado = "No se puede"
+        End If
         Label4.Text = resultado.ToString()
     End Sub
 
@@ -99,5 +105,9 @@
 
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
         activo = TextBox2
+    End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        activo.Text = activo.Text & "."
     End Sub
 End Class
